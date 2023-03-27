@@ -1,0 +1,29 @@
+<div class="dashline-area2">
+							<svg id="dashline2" data-name="dashline2" class="dashline2">
+								<path id="yellow-dashline2" data-name="yellow-dashline2" class="yellow-dashline2" d="m913.37,25.95c-69.23-3.77-254.43-79.58-476.58,53.14C214.64,211.81,291,203.9.08,228.13"/>
+							  </svg>
+						</div>
+
+
+.dashline-area2{
+                    width: 913px;
+                    height: 227px;
+                    position: absolute;
+                    bottom: 197px;
+                    left: 595px;
+                    .dashline2{
+                        width: 0;
+                        height: 100%;
+                        .yellow-dashline2{
+                            fill: none;
+                            stroke: #fed932;
+                            stroke-dasharray: 0 0 10 10;
+                            stroke-width: 3px;
+                        }
+                    }
+                }
+
+
+
+
+
