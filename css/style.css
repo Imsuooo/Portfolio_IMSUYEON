@@ -506,10 +506,10 @@ body {
   background: url(../img/freitag01.jpg) no-repeat center center/cover;
 }
 #main .project-make .top_bg .imgbg3 {
-  background: url(../img/maeil01.jpg) no-repeat center center/cover;
+  background: url(../img/unicef01.jpg) no-repeat center center/cover;
 }
 #main .project-make .top_bg .imgbg4 {
-  background: url(../img/unicef01.jpg) no-repeat center center/cover;
+  background: url(../img/maeil01.jpg) no-repeat center center/cover;
 }
 #main .project-make .title {
   width: 100%;
@@ -771,9 +771,15 @@ body {
   position: static;
 }
 #main .mockup-section.mockup-section3::after {
-  background: #263F69;
+  background: #1AABE2;
 }
 #main .mockup-section.mockup-section3 .responsive {
+  position: static;
+}
+#main .mockup-section.mockup-section4::after {
+  background: #263F69;
+}
+#main .mockup-section.mockup-section4 .responsive {
   position: static;
 }
 #main .mockup-section .responsive {

@@ -460,10 +460,10 @@ body{
             background: url(../img/freitag01.jpg)no-repeat center center/cover;
         }
         .imgbg3{
-            background: url(../img/maeil01.jpg)no-repeat center center/cover;
+            background: url(../img/unicef01.jpg)no-repeat center center/cover;
         }
         .imgbg4{
-            background: url(../img/unicef01.jpg)no-repeat center center/cover;
+            background: url(../img/maeil01.jpg)no-repeat center center/cover;
         }
        }
        .title{
@@ -722,6 +722,14 @@ body{
             }
         }
         &.mockup-section3{
+            &::after{
+                background: #1AABE2;
+            }
+            .responsive{
+                position: static;
+            }
+        }
+        &.mockup-section4{
             &::after{
                 background: #263F69;
             }
