@@ -1,6 +1,6 @@
 //커버 사이즈
 function coverH(){
-   let headerH= $('#header').innerHeight()|| height();
+   let headerH= $('#header').innerHeight() || height();
     $('.cover-text-area').css({height:headerH})
 }
 setInterval(coverH,20)
@@ -66,8 +66,12 @@ $('.freitag').click(function(){
     let offset = $('.project-make2').offset();
     $('html').animate({scrollTop : offset.top}, 400);
 });
-$('.maeil').click(function(){
+$('.unicef').click(function(){
     let offset = $('.project-make3').offset();
+    $('html').animate({scrollTop : offset.top}, 400);
+});
+$('.maeil').click(function(){
+    let offset = $('.project-make4').offset();
     $('html').animate({scrollTop : offset.top}, 400);
 });
 
@@ -104,5 +108,9 @@ $('.list02').click(()=>{
 })
 $('.list03').click(()=>{
     let offset = $('.project-make3').offset();
+    $('html').animate({scrollTop : offset.top}, 400);
+})
+$('.list04').click(()=>{
+    let offset = $('.project-make4').offset();
     $('html').animate({scrollTop : offset.top}, 400);
 })

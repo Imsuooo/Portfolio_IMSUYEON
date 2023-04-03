@@ -462,6 +462,9 @@ body{
         .imgbg3{
             background: url(../img/maeil01.jpg)no-repeat center center/cover;
         }
+        .imgbg4{
+            background: url(../img/unicef01.jpg)no-repeat center center/cover;
+        }
        }
        .title{
         width: 100%;
@@ -645,6 +648,18 @@ body{
                         &.color8{
                             background: #F8F9FA;
                             color: #666;
+                        }
+                        &.color9{
+                            background: #1AABE2;
+                            color: #fff;
+                        }
+                        &.color10{
+                            background: #FFDC0D;
+                            color: #fff;
+                        }
+                        &.color11{
+                            background: #404040;
+                            color: #fff;
                         }
                     }
                 }
