@@ -438,7 +438,7 @@ body{
        .project-num{
         width: 100%;
         margin-bottom: 20px;
-        .numFont{font-size: 2rem; font-weight: 800;}
+        .numFont{font-size: 2rem; font-weight: 400;}
         .en{font-size: 1.8rem;}
        }
        .top_bg{
@@ -454,7 +454,7 @@ body{
             height: 460px;
             background: url(../img/urban_bg.jpg)no-repeat center center/cover;
             background-attachment: scroll;
-            filter: brightness(70%);
+            filter: brightness(40%);
         }
         .imgbg2{
             background: url(../img/freitag01.jpg)no-repeat center center/cover;
@@ -1109,7 +1109,7 @@ body{
                             font-size: 1.1rem;
                             text-align: center;
                             font-weight: 400;
-                            line-height: 200%;
+                            line-height: 160%;
                             &.program{width: 100%;}
                         }
                     }
@@ -1119,7 +1119,7 @@ body{
                             text-align: center;
                             padding-bottom: 30px;
                             font-size: 1.1rem;
-                            line-height: 180%;
+                            line-height: 160%;
                             &::after{
                                 content: "";
                                 width: 40px;
@@ -1458,6 +1458,7 @@ body{
                 .en{font-size: 1.2rem;}
             }
             .title{
+                margin-top: 40px;
                 .en{font-size: 1.4rem;}
                 .ko{
                     font-size: 1.4rem;
@@ -1481,39 +1482,72 @@ body{
 @media screen and (max-width:550px){
     #main{
         .about{
-        .info-area{
-        .left{
-            .picture{
-                height: 280px;
-                    .img-box{
-                    width: 180px;
-                    height: 230px;
+            .info-area{
+                .left{
+                    .picture{
+                        height: 280px;
+                            .img-box{
+                            width: 180px;
+                            height: 230px;
+                        }
+                    }
+                        .info-text{
+                            .info{
+                                display: block;
+                                h2{padding-bottom: 10px;}
+                                .ko{font-size: 1rem;}
+                            }}
                 }
-            }
-                .info-text{
-                    .info{
-                        display: block;
-                        h2{padding-bottom: 10px;}
-                    }}
+                .right{
+                    .introduce{.introduce-text{p{font-size: 1rem;}}}
+                    .skill{.text{.box1{p{font-size: 1rem;}}}}
                 }
             }
         }
         .project-list{margin-top: 100px;}
         .project-make{
+            .project-num{
+                border-bottom: 1px solid #5e1eea;
+                padding-bottom: 5px;
+                display: flex;
+                justify-content: space-between;
+            }
             &.project-make-top{margin-top: 100px;}
             .top-area{
                 .img-area{
                     height: 200px;
-                    padding-bottom: 55px;
+                    padding-bottom: 65px;
                 }
-                .text{.info-buttom{.site{
-                   width: 100%;
-                   position: absolute;
-                   left: 50%;
-                   transform: translateX(-50%);
-                   justify-content: center;
-                    .ko{margin-right: 15px;}
-                }}}
+                .text{
+                    .project-info{
+                        padding-bottom: 55px;
+                        &::after{top: -30px;}
+                    }
+                    .info-buttom{
+                        .site{
+                        width: auto;
+                        position: absolute;
+                        left: 50%;
+                        transform: translateX(-50%);
+                        justify-content: center;
+                        .ko{margin-right: 15px;}
+                      }
+                      p{
+                        padding-bottom: 42px;
+                        &::after{top: -25px;}
+                    }
+                    }
+                }
+            }
+            .top_bg{.imgbg{display: none;}}
+            .title{
+                margin-top: 25px;
+                .ko{
+                font-size: 1.8rem;
+                color: #5F1DEA;
+                font-weight: 600;
+                letter-spacing: -0.5px;
+              }
             }
         }
         .img-section{display: none;}

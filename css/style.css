@@ -481,7 +481,7 @@ body {
 }
 #main .project-make .project-num .numFont {
   font-size: 2rem;
-  font-weight: 800;
+  font-weight: 400;
 }
 #main .project-make .project-num .en {
   font-size: 1.8rem;
@@ -500,7 +500,7 @@ body {
   height: 460px;
   background: url(../img/urban_bg.jpg) no-repeat center center/cover;
   background-attachment: scroll;
-  filter: brightness(70%);
+  filter: brightness(40%);
 }
 #main .project-make .top_bg .imgbg2 {
   background: url(../img/freitag01.jpg) no-repeat center center/cover;
@@ -1110,7 +1110,7 @@ body {
     font-size: 1.1rem;
     text-align: center;
     font-weight: 400;
-    line-height: 200%;
+    line-height: 160%;
   }
   #main .project-make .top-area .text .project-info p.program {
     width: 100%;
@@ -1122,7 +1122,7 @@ body {
     text-align: center;
     padding-bottom: 30px;
     font-size: 1.1rem;
-    line-height: 180%;
+    line-height: 160%;
   }
   #main .project-make .top-area .text .info-buttom p::after {
     content: "";
@@ -1446,6 +1446,9 @@ body {
   #main .project-make .project-num .en {
     font-size: 1.2rem;
   }
+  #main .project-make .title {
+    margin-top: 40px;
+  }
   #main .project-make .title .en {
     font-size: 1.4rem;
   }
@@ -1481,18 +1484,39 @@ body {
   #main .about .info-area .left .info-text .info h2 {
     padding-bottom: 10px;
   }
+  #main .about .info-area .left .info-text .info .ko {
+    font-size: 1rem;
+  }
+  #main .about .info-area .right .introduce .introduce-text p {
+    font-size: 1rem;
+  }
+  #main .about .info-area .right .skill .text .box1 p {
+    font-size: 1rem;
+  }
   #main .project-list {
     margin-top: 100px;
+  }
+  #main .project-make .project-num {
+    border-bottom: 1px solid #5e1eea;
+    padding-bottom: 5px;
+    display: flex;
+    justify-content: space-between;
   }
   #main .project-make.project-make-top {
     margin-top: 100px;
   }
   #main .project-make .top-area .img-area {
     height: 200px;
+    padding-bottom: 65px;
+  }
+  #main .project-make .top-area .text .project-info {
     padding-bottom: 55px;
   }
+  #main .project-make .top-area .text .project-info::after {
+    top: -30px;
+  }
   #main .project-make .top-area .text .info-buttom .site {
-    width: 100%;
+    width: auto;
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
@@ -1500,6 +1524,24 @@ body {
   }
   #main .project-make .top-area .text .info-buttom .site .ko {
     margin-right: 15px;
+  }
+  #main .project-make .top-area .text .info-buttom p {
+    padding-bottom: 42px;
+  }
+  #main .project-make .top-area .text .info-buttom p::after {
+    top: -25px;
+  }
+  #main .project-make .top_bg .imgbg {
+    display: none;
+  }
+  #main .project-make .title {
+    margin-top: 25px;
+  }
+  #main .project-make .title .ko {
+    font-size: 1.8rem;
+    color: #5F1DEA;
+    font-weight: 600;
+    letter-spacing: -0.5px;
   }
   #main .img-section {
     display: none;
