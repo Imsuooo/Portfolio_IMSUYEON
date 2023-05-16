@@ -511,6 +511,33 @@ body {
 #main .project-make .top_bg .imgbg4 {
   background: url(../img/maeil01.jpg) no-repeat center center/cover;
 }
+#main .project-make .detail_page_bg {
+  height: 100vh;
+  background: url(../img/detail_page_bg.jpg) no-repeat center center/cover;
+  position: relative;
+}
+#main .project-make .detail_page_bg .detail_page_more {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#main .project-make .detail_page_bg .detail_page_more .detail_page_more_img {
+  display: block;
+  width: 100%;
+}
+#main .project-make .detail_page_bg .detail_page_more .more {
+  width: 100%;
+  height: 100%;
+  display: block;
+  text-align: center;
+  padding-top: 30px;
+  opacity: 0.8;
+  transition: 0.3s ease-in-out;
+}
+#main .project-make .detail_page_bg .detail_page_more .more:hover {
+  opacity: 1;
+}
 #main .project-make .title {
   width: 100%;
   margin-top: 70px;
@@ -841,6 +868,34 @@ body {
   display: block;
   width: 100%;
   margin: 0 auto;
+}
+#main .bye {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+}
+#main .bye .bye_text {
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+#main .bye .bye_text .thanks {
+  font-size: 2rem;
+  font-weight: 200;
+}
+#main .bye .bye_text .thank_you {
+  font-size: 3rem;
+  font-weight: 700;
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0.4;
+  color: #FED932;
+  z-index: -1;
 }
 
 #footer .topBtn {
@@ -1244,6 +1299,14 @@ body {
   #main .project-make.project-make-top {
     margin-top: 120px;
   }
+  #main .project-make .detail_page_bg .detail_page_more {
+    width: 80%;
+  }
+  #main .project-make .detail_page_bg .detail_page_more .more > img {
+    display: block;
+    margin: 0 auto;
+    width: 30%;
+  }
   #main .img-section .container .web {
     display: none;
   }
@@ -1468,6 +1531,12 @@ body {
   }
   #main .mockup-section .responsive {
     display: none;
+  }
+  #main .bye .bye_text .thanks {
+    font-size: 1.5rem;
+  }
+  #main .bye .bye_text .thank_you {
+    font-size: 2rem;
   }
 }
 @media screen and (max-width: 550px) {

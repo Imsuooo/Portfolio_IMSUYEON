@@ -74,6 +74,10 @@ $('.maeil').click(function(){
     let offset = $('.project-make4').offset();
     $('html').animate({scrollTop : offset.top}, 400);
 });
+$('.product_information_page').click(function(){
+    let offset = $('.project-make5').offset();
+    $('html').animate({scrollTop : offset.top}, 400);
+});
 
 //top이동 버튼
 $('.topBtn2').click(function(e){
@@ -112,5 +116,9 @@ $('.list03').click(()=>{
 })
 $('.list04').click(()=>{
     let offset = $('.project-make4').offset();
+    $('html').animate({scrollTop : offset.top}, 400);
+})
+$('.list05').click(()=>{
+    let offset = $('.project-make5').offset();
     $('html').animate({scrollTop : offset.top}, 400);
 })
